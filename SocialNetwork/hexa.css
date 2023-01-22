@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.inner-container.left-side{
+  text-align: center;
+}
+
+.inner-container img.profile{
+  width: 70%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 5px solid #fff;
+  margin-bottom: 20px;
+}
+
+.inner-container.right-side form{
+  display: flex;
+  height: 100%;
+}
+
+.inner-container.right-side form textarea{
+  width: 85%;
+  border: none;
+  padding: 10px;
+  resize: none;
+}
+
+.inner-container.right-side form button{
+  width: 15%;
+  border: 0;
+  margin-right: 2px;
+}
+
+#postForm button{
+  background-color: #1c3fa8;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+#postForm button:hover{
+  background-color: #1440c3;
+}
+
+#editAccount,
+#logout{
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #057aed;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+#logout{
+  background-color: #d9534f;
+}
+
+#deleteProfile{
+  border: 2px solid red;
+  color: red;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+
+#allPostsWrapper .single-post{
+  background-color: #eaeaea;
+  padding: 15px;
+  margin-top: 15px;
+  color: #000;
+  border: 1px solid #1c3fa8;
+  border-radius: 10px;
+}
+
+#allPostsWrapper .single-post .post-content{
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+#allPostsWrapper .single-post .post-actions{
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+#allPostsWrapper .single-post .post-actions div button.like-btn{
+  background-image: url('img/like.png');
+  padding: 5px 15px 5px 40px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  border: 0;
+  background-color: #eaeaea;
+}
+
+#allPostsWrapper .single-post .post-actions div button.comment-btn{
+  background-image: url('img/comment.png');
+  padding: 5px 15px 5px 40px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  border: 0;
+  background-color: #eaeaea;
+}
+
+#allPostsWrapper .single-post .post-actions div button.remove-btn{
+  background-color: #d9534f;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+}
+
+#allPostsWrapper .single-post .post-comments form{
+  height: 30px;
+  margin-top: 15px;
+}
+
+#allPostsWrapper .single-post .post-comments form input{
+  width: 85%;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+#allPostsWrapper .single-post .post-comments form input:focus{
+  border: 2px solid #057aed;
+}
+
+#allPostsWrapper .single-post .post-comments form button{
+  width: 12%;
+  margin-left: 30px;
+  background-color: #057aed;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#allPostsWrapper .single-post .post-comments{
+  display: none;
+}
+
+#allPostsWrapper .single-post .post-comments .single-comment{
+  border: 1px dotted #057aed;
+  padding: 10px;
+  margin-top: 10px;
+}
