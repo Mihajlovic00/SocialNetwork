@@ -13,4 +13,6 @@ You can like and comment other users comments.
 
 I created a cookie to stop redirecting to the main page without logging or registering.
 
+This project is built with: HTML, CSS, JavaScript and mockAPi.
+
 ** The main goal was functionality, not design **
